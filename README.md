@@ -2,15 +2,19 @@
 
 Flutter application for vacancy
 
-## Getting Started
+## Junior/Middle Flutter test 
 
-This project is a starting point for a Flutter application.
+Create a flutter application with the following screens:
+Splash screen (1-2 seconds for hold the user on this screen)
+Posts List Screen
+Post screen with user information
+Application Requirements: 
+Start updating the list of posts on the splash screen
+Add saving information to moor, display it first on the screen, then updated data from the network
+There should be correct error handling, display of the loading, and the ability to update data using a pull-refresh
+Links from where to get the data:
+	Posts - https://jsonplaceholder.typicode.com/posts
+	User - https://jsonplaceholder.typicode.com/users/{id}
+Much attention is paid to the quality, conciseness, and readability of the code, also chosen architecture and the rationale why it is.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
